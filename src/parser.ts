@@ -48,7 +48,7 @@ function parseItems(
       const addDate = $dt.children("H3").attr("add_date");
       const lastModified = $dt.children("H3").attr("last_modified");
       const personalToolbarFolder = $dt.children("H3").attr("personal_toolbar_folder");
-      const folderItems = $dt.children("H3").next();
+      const folderItems = $dt.children("DL").first();
       // next sibling should be DL
       if (folderItems.children().length > 0) {
         const childItems = parseItems($, folderItems);
