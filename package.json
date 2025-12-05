@@ -1,6 +1,6 @@
 {
   "name": "bookmark-json-converter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TypeScript library for converting browser bookmark files to/from JSON",
   "type": "module",
   "main": "dist/index.js",
@@ -37,4 +37,3 @@
     "@vitest/ui": "^2.0.0"
   }
 }
-
