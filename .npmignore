@@ -1,0 +1,9 @@
+src/
+test/
+node_modules/
+*.tsbuildinfo
+.git/
+.gitignore
+tsconfig.json
+*.log
+
